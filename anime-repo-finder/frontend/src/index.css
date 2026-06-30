@@ -1,0 +1,33 @@
+:root {
+  --ink: #100c24;
+  --indigo: #1b1640;
+  --violet: #322a63;
+  --mist: #4ee6c8;
+  --sakura: #ff6fa5;
+  --gold: #ffc857;
+  --paper: #f4f1ff;
+  --paper-dim: #c9c3e8;
+  --font-display: "Zen Kaku Gothic New", sans-serif;
+  --font-body: "Space Grotesk", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-body);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, select, button {
+  font-family: inherit;
+}
